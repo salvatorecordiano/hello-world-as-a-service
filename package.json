@@ -1,13 +1,18 @@
 {
-  "name": "Hello World as a Service",
-  "version": "1.0.0",
-  "description": "",
+  "name": "HelloWorldAsAService",
+  "version": "0.0.1",
+  "description": "The most stupid REST service using hapi.js",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/salvatorecordiano/hello-world-as-a-service"
   },
-  "author": "Salvatore Cordiano",
-  "license": "ISC",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Salvatore Cordiano <github@parallel.it>",
+  "license": "MIT",
+  "readme": "README.md"
   "dependencies": {
     "hapi": "~8.8.0"
   }
