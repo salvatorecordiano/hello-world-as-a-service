@@ -12,7 +12,7 @@
   },
   "author": "Salvatore Cordiano <github@parallel.it>",
   "license": "MIT",
-  "readme": "README.md"
+  "readme": "README.md",
   "dependencies": {
     "hapi": "~8.8.0"
   }
