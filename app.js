@@ -35,15 +35,6 @@ server.route({
 
 server.route({
 	method: 'GET',
-	path: '/camelCase',
-	handler: function(request, reply){
-		var response = { data: 'aaa' };
-		return reply(JSON.stringify(response)).type('application/json');
-	}
-});
-
-server.route({
-	method: 'GET',
 	path: '/noSpace',
 	handler: function(request, reply){
 		var response = { data: text.replace(' ', '') };
